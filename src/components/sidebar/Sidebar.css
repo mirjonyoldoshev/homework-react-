@@ -1,0 +1,13 @@
+.ant-menu-item {
+  background-color: transparent;
+}
+
+.ant-menu-item:has(.active) {
+  background-color: #1677ff;
+  color: #fff;
+}
+
+.ant-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+}
